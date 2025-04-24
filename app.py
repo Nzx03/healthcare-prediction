@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("neural_network_model.pkl")
+model = load_model('random_forest_model.pkl')  
+
+
+
 
 
 
